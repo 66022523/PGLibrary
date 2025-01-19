@@ -9,7 +9,7 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql" // บอกว่าใช้ db ประเภทไหน (เจ้าไหน) "cockroachdb" | "mysql" | "postgresql" | "sqlite"
+  provider = "postgresql" // บอกว่าใช้ db ประเภทไหน (เจ้าไหน) "cockroachdb" | "mysql" | "postgresql" | "sqlite"
   url      = env("DATABASE_URL") // ไม่ต้องเปลี่ยน
 }
 
